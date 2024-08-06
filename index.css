@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.logo{
+    margin-left: 50px;
+}
+.navbar{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #8854c0d9;
+    font-size: 17px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.mid{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.mid p{
+    margin-left: 50px;
+    margin-right: 5px;
+}
+.typeDiv{
+    display: flex;
+}
+.mid img{
+    height: 19px;
+}
+.login img{
+    height: 19px;
+}
+.login{
+    display: flex;
+}
+.login p{
+    margin-left: 5px;
+    margin-right: 25px;
+}
+.body{
+    margin: auto;
+    margin-top: 20px;
+    width: 80%;
+    height:500px;
+}
+.top{
+    display: flex;
+}
+.left-top img{
+    height: 100px;
+}
+.left-top p{
+    color: #5D2057;
+    font-size: 25px;
+}
+.left_Btm h1{
+    margin-top: 10px;
+    font-size: 50px ;
+    margin-bottom: 10px;
+}
+.left_Btm p{
+    font-size: 25px;
+}
+.right {
+    width: 50%;
+}
+.left {
+    margin-top: 45px;
+    width: 45%;
+    margin-left: 50px;
+}
+.right img{
+    width: 100%;
+}
+.signBtn{
+    background-color:#8854c0d9;
+    padding: 20px 40px;
+    color: #fff;
+    font-size: 20px;
+    border: 0;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+.banner img{
+    margin-top: 70px;
+    width: 100%;
+    margin: auto;
+}
+.body2 img{
+    width: 100%;
+}
+.footer{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+}
+button{
+    cursor: pointer;
+}
+
+footer {
+    background-color: #8854c0d9;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+}
+.logo img{
+    height: 64px;
+    width: 150px;
+}
+.footer-container {
+    /* background-color: #8854c0d9; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1000px;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.footer-section h2 {
+    margin-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section ul,
+.footer-section li {
+    margin: 5px 0;
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+}
